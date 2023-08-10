@@ -6,3 +6,4 @@ try:
     print(f"{number} - {'простое' if is_prime(number) else 'составное'} число.")
 except ValueError:
     print("Ошибка ввода. Введите целое число.")
+    
